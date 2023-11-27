@@ -150,7 +150,7 @@ footer p {
     grid-template-rows: 1fr;
     column-gap: 10px;
   }
-  d .billeder_grid,
+  .billeder_grid,
   .billeder_grid_2 {
     display: grid;
     grid-template-columns: 1fr;
