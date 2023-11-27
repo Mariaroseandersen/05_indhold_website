@@ -1,48 +1,25 @@
-header {
-  display: flex;
-  justify-content: end;
-  padding: 20px;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Æændre position på hvor teksten i menuen står */
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #c62452;
   width: 100%;
+  display: block;
+  padding: 25px 20px;
+  text-transform: uppercase;
   font-family: "proxima-nova", sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 2rem;
-}
-
-/* .logo img {
-  width: 350px;
-  height: 70px;
-} */
-
-nav {
-  display: flex;
-  align-items: center;
-}
-
-.menu {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu li {
-  margin-right: 20px;
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
-
-.menu li:last-child {
-  margin-right: 0;
-}
-
-.menu a {
-  display: block;
-  padding: 10px;
-  color: #c62452;
-  text-decoration: none;
-  transition: color 0.3s;
-  text-align: end;
 }
 
 .burger {
