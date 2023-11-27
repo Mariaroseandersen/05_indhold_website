@@ -51,7 +51,7 @@ nav ul {
 
   .burger.active .line:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
-    transition: 0.2s linear;
+    transition: 0.3s linear;
   }
 
   .burger.active .line:nth-child(2) {
